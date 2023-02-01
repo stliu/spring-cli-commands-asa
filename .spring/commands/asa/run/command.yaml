@@ -1,0 +1,9 @@
+command:
+  description: Run the project on Azure Spring Apps
+  options:
+    #
+    - name: feature
+      description: name of the feature package
+      dataType: string
+      defaultValue: person
+      inputType: text     # TEXT
